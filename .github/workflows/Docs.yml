@@ -31,7 +31,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: julia-actions/setup-julia@v2
         with:
           version: "1"
@@ -47,10 +47,10 @@ jobs:
         run: |
           julia --project=docs -e '
             using Documenter: DocMeta, doctest
-            using DiodeModels
+            using SolarDiodeModels
             using Dates
-            DocMeta.setdocmeta!(DiodeModels, :DocTestSetup, :(using DiodeModels; using Dates; obs = Observer(37.7749, -122.4194, 100.0); dt = DateTime(2023, 6, 21, 12, 0, 0)); recursive=true)
-            doctest(DiodeModels)'
+            DocMeta.setdocmeta!(SolarDiodeModels, :DocTestSetup, :(using SolarDiodeModels; using Dates; obs = Observer(37.7749, -122.4194, 100.0); dt = DateTime(2023, 6, 21, 12, 0, 0)); recursive=true)
+            doctest(SolarDiodeModels)'
       - name: Generate and deploy documentation
         run: julia --project=docs docs/make.jl
         env:

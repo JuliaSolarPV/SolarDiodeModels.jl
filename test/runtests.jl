@@ -1,7 +1,7 @@
 using Test
-using DiodeModels
+using SolarDiodeModels
 
-include("setup.jl")
+
 include("linting.jl")
 
 #=

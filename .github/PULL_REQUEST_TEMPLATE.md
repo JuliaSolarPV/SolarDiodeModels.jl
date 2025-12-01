@@ -1,5 +1,5 @@
 <!--
-Thanks for making a pull request to DiodeModels.jl.
+Thanks for making a pull request to SolarDiodeModels.jl.
 We have added this PR template to help you help us.
 Make sure to read the contributing guidelines.
 See the comments below, fill the required fields, and check the items.
@@ -23,7 +23,7 @@ There is no related issue.
 <!-- mark true if NA -->
 <!-- leave PR as draft until all is checked -->
 
-- [ ] I am following the [contributing guidelines](https://github.com/JuliaSolarPV/DiodeModels.jl/blob/main/docs/src/contributing.md)
+- [ ] I am following the [contributing guidelines](https://github.com/JuliaSolarPV/SolarDiodeModels.jl/blob/main/docs/src/contributing.md)
 - [ ] Tests are passing
 - [ ] Lint workflow is passing
 - [ ] Docs were updated and workflow is passing

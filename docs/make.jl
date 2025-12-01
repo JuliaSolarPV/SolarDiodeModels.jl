@@ -1,12 +1,12 @@
-using DiodeModels
+using SolarDiodeModels
 using Documenter
 using DocStringExtensions
 using DocumenterCitations
 
 DocMeta.setdocmeta!(
-    DiodeModels,
+    SolarDiodeModels,
     :DocTestSetup,
-    :(using DiodeModels;
+    :(using SolarDiodeModels;
     using Dates;
     obs = Observer(37.7749, -122.4194, 100.0);
     dt = DateTime(2023, 6, 21, 12, 0, 0));
@@ -23,16 +23,35 @@ numbered_pages = [
 ]
 
 makedocs(;
-    modules = [DiodeModels],
+    modules = [SolarDiodeModels],
     authors = "Stefan de Lange",
-    repo = Documenter.Remotes.GitHub("JuliaSolarPV", "DiodeModels.jl"),
-    sitename = "DiodeModels.jl",
+    repo = Documenter.Remotes.GitHub("JuliaSolarPV", "SolarDiodeModels.jl"),
+    sitename = "SolarDiodeModels.jl",
     format = Documenter.HTML(;
-        canonical = "https://JuliaSolarPV.github.io/DiodeModels.jl",
+        canonical = "https://juliasolarpv.github.io/SolarDiodeModels/stable/",
         size_threshold = 2^20, # 1 MB
     ),
     plugins = [bib],
-    pages = ["index.md", "reference.md", "literature.md", "contributing.md"],
+    pages = [
+        "index.md",
+        "Guides" => [
+            "guides/getting-started.md",
+            "guides/plotting.md",
+            "guides/parallel.md",
+            "guides/modelingtoolkit.md",
+            "guides/new-algorithm.md",
+        ],
+        "reference.md",
+        "positioning.md",
+        "refraction.md",
+        "deltat.md",
+        "literature.md",
+        "contributing.md",
+    ],
 )
 
-deploydocs(; repo = "github.com/JuliaSolarPV/DiodeModels.jl")
+deploydocs(;
+    repo = "github.com/JuliaSolarPV/SolarDiodeModels.jl",
+    versions = ["stable" => "v^", "v#.#"], # Restrict to minor releases
+    push_preview = true,
+)
