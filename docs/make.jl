@@ -32,22 +32,7 @@ makedocs(;
         size_threshold = 2^20, # 1 MB
     ),
     plugins = [bib],
-    pages = [
-        "index.md",
-        "Guides" => [
-            "guides/getting-started.md",
-            "guides/plotting.md",
-            "guides/parallel.md",
-            "guides/modelingtoolkit.md",
-            "guides/new-algorithm.md",
-        ],
-        "reference.md",
-        "positioning.md",
-        "refraction.md",
-        "deltat.md",
-        "literature.md",
-        "contributing.md",
-    ],
+    pages = ["index.md", "reference.md", "literature.md", "contributing.md"],
 )
 
 deploydocs(;

@@ -32,4 +32,4 @@ If you use SolarDiodeModels.jl in your work, please cite using the reference giv
 
 ## Contributing
 
-If you want to make contributions of any kind, please first that a look into our [contributing guide directly on GitHub](docs/src/contributing.md) or the [contributing page on the website](https://juliasolarpv.github.io/SolarDiodeModels.jl/stable/contributing/)
+If you want to make contributions of any kind, please first take a look at our [contributing guide directly on GitHub](https://github.com/JuliaSolarPV/SolarDiodeModels.jl/blob/main/docs/src/contributing.md) or the [contributing page on the website](https://juliasolarpv.github.io/SolarDiodeModels.jl/stable/contributing/)

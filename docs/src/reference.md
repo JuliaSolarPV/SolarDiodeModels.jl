@@ -14,3 +14,13 @@ Pages = ["reference.md"]
 ```@index
 Pages = ["reference.md"]
 ```
+
+
+## Diode Models
+
+The following diode models are implemented in SolarDiodeModels.jl:
+
+```@docs
+SolarDiodeModels.DiodeModels.PVsyst
+SolarDiodeModels.DiodeModels.DeSoto
+```
