@@ -1,5 +1,6 @@
 module SolarDiodeModels
 
-using DocStringExtensions: TYPEDSIGNATURES
+
+include("DiodeModels/DiodeModels.jl")
 
 end # module
