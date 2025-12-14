@@ -11,3 +11,7 @@ $(TYPEDFIELDS)
 
 """
 struct DeSoto <: DiodeModel end
+
+function (d::DeSoto)(; kwargs...)
+    print("DeSoto diode model component called with kwargs: ", kwargs, "\n")
+end
