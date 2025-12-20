@@ -15,7 +15,7 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 [compat]
 Aqua = "0.8"
 DocStringExtensions = "0.9"
-ModelingToolkit = "10"
+ModelingToolkit = "10, 11"
 ModelingToolkitStandardLibrary = "2.25.0"
 Symbolics = "6"
 Test = "1"
