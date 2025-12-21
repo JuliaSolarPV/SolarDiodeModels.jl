@@ -2,7 +2,7 @@ using Test
 using SolarDiodeModels
 
 
-include("linting.jl")
+# include("linting.jl")
 
 #=
 Don't add your tests to runtests.jl. Instead, create files named

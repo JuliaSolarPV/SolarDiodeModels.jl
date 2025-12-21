@@ -1,11 +1,13 @@
 [deps]
 Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
 JET = "c3a54625-cd67-489e-a8e7-0a5a0ff4e31b"
+ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
+ModelingToolkitStandardLibrary = "16a59e39-deab-5bd0-87e4-056b12336739"
 SolarDiodeModels = "5b9d1343-a731-5a90-8730-7bf8d89bf3eb"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [sources]
-SolarDiodeModels = { path = ".." }
+SolarDiodeModels = {path = ".."}
 
 [compat]
 Aqua = "0.8"

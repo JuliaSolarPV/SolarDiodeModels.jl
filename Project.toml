@@ -8,6 +8,7 @@ projects = ["test", "docs"]
 
 [deps]
 DocStringExtensions = "ffbed154-4ef7-542d-bbb7-c09d3a79fcae"
+DynamicQuantities = "06fc5a27-2a28-4c7c-a15d-362465fb6821"
 ModelingToolkit = "961ee093-0014-501f-94e3-6117800e7a78"
 ModelingToolkitStandardLibrary = "16a59e39-deab-5bd0-87e4-056b12336739"
 Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
@@ -15,6 +16,7 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 [compat]
 Aqua = "0.8"
 DocStringExtensions = "0.9"
+DynamicQuantities = "1.10.0"
 ModelingToolkit = "10"
 ModelingToolkitStandardLibrary = "2.25.0"
 Symbolics = "6"
