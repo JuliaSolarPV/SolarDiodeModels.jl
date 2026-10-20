@@ -15,7 +15,7 @@ Symbolics = "0c5d862f-8b57-4792-8d23-62f2024744c7"
 
 [compat]
 Aqua = "0.8"
-DocStringExtensions = "0.9"
+DocStringExtensions = "0.9, 0.10"
 DynamicQuantities = "1.10.0"
 ModelingToolkit = "10"
 ModelingToolkitStandardLibrary = "2.25.0"
